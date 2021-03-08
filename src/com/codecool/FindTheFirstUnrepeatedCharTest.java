@@ -2,7 +2,6 @@ package com.codecool;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 public class FindTheFirstUnrepeatedCharTest {
@@ -26,7 +25,7 @@ public class FindTheFirstUnrepeatedCharTest {
 
     @Test
     public void returnR(){
-        assertEquals(java.util.Optional.of('r').get(), findTheFirstUnrepeatedChar.solution("krokodil"));
+        assertEquals(java.util.Optional.of('r').get(), findTheFirstUnrepeatedChar.solution("crocodile"));
     }
 
 }
