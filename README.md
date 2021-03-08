@@ -1,4 +1,4 @@
-#Find The First Unrepeated Character In A String
+# Find The First Unrepeated Character In A String
 
 If we have a String ex.: "crocodile", the result what we want to se is 'r'.
 
